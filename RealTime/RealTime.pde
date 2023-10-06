@@ -12,7 +12,8 @@ int timerStart, enteredTimeSeconds, enteredTimeMilliSeconds, currentTime, counti
 void setup() {
   enteredTimeSeconds = 13; //CAUTION: will need to convert minutes and hours to seconds
   enteredTimeMilliSeconds = enteredTimeSeconds * 1000;
-  timerStart = millis();
+  //Last line in Setup to adjust currentTime in void draw(){}
+  timerStart = millis(); //Measure program start time called "scope"
   println(timerStart);
 }
 //
