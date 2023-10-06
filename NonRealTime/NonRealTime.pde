@@ -4,14 +4,14 @@
  - And, 1 second counts down from the time entered
  */
 //
-int counter, one;
+int counter, enteredTime;
 //
 void setup() {
-  one = 13;
+  enteredTime = 13;
 }
 //
 void draw() {
   counter++; //println(counter++);
-  if ( counter%60 == 0) println(one--);
+  if ( counter%60 == 0) println(enteredTime--);
 }
 //End MAIN Program
