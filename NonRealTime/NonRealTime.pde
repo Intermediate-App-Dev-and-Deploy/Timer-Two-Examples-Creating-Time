@@ -7,7 +7,7 @@
 int counter, enteredTime;
 //
 void setup() {
-  enteredTime = 13;
+  enteredTime = 13; //Variable should be in void draw() {}, entered from numPad
 }
 //
 void draw() {
