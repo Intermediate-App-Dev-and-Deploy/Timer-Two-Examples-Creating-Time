@@ -11,6 +11,7 @@ Example 2: real-time
 
 Example 3: real-time using extra code in void draw() {}
 - Most accurate measure of time
+- Uses IF and Boolean
 - extra code in void draw() {} is less than one millisecond
 
 ---
