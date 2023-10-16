@@ -7,6 +7,11 @@ Example 1: nonreal time
 
 Example 2: real-time
 - Using the crystal as electricity passes through it (1 millisecond)
+- However, there is an insignificant time difference between void setup and void draw
+
+Example 3: real-time using extra code in void draw() {}
+- Most accurate measure of time
+- extra code in void draw() {} is less than one millisecond
 
 ---
   
